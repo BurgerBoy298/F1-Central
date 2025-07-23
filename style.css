@@ -3,3 +3,32 @@ body {
   background-color: #f2f2f2;
   text-align: center;
 }
+.welcome-banner {
+  width: 98vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#my-navbar {
+  position: sticky;
+}
+.background-image {
+  position: absolute;
+  z-index: -10;
+  width: 98vw;
+  height: 110vh;
+}
+.font-colour {
+  color: white;
+}
+
+.dropdown-menu {
+  list-style: none;
+}
+.font-two {
+  color: white;
+  text-align: center;
+  width: 70%;
+}
